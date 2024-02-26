@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:azure;
+    font-family: calibri;
+    color: black;
+    font-size: 18px;
+}
+.topo{
+    background-color:brown;
+
+}
+.topo a{
+    color: black;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+}
+.menu li{
+    margin-left: 18px;
+}
+.titulo{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.grade{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(620px,1fr));
+    gap: 5px;
+}
+.materia{
+    background-color: antiquewhite;
+    padding: 15px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.materia img{
+    width: 60%;
+
+}
+.botao{
+    color: black;
+    background-color:white;
+}
+.rodape{
+    background-color: white;
+    font-family:calibri;
+    padding:10px;
+    text-align:center;   
+}
+
+

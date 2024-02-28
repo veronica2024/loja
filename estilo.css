@@ -10,18 +10,22 @@ body{
 }
 .topo{
     background-color:brown;
-    padding: 25px;
+    padding: 20px;
     font-size: 18px;
 
 }
 .topo a{
     color: black;
-    text-decoration: none;
+    text-decoration: none;    
+}
+.topo a:hover{
+    color: brown;
 }
 .texto{
-    color: black;
-    font-family: calibri;
-    font-size: 30px;
+    font-family: calibi;
+    font-size: 23px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 .menu{
     display: flex;
@@ -33,14 +37,16 @@ body{
 }
 .titulo{
     color: black;
-    font-size: 40px;
+    font-size: 35px;
     text-align: center;
     margin-bottom: 30px;
+    margin-top: 20px;
 }
 .grade{
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(620px,1fr));
     gap: 5px;
+    margin-top: 20px;
 }
 .materia{
     background-color: antiquewhite;
@@ -61,6 +67,9 @@ body{
     border-radius: 5px;
     font-size: 15px;
 }
+.botao:hover{
+    background-color:darksalmon;
+}
 .rodape{
     background-color: white;
     font-family:calibri;
@@ -72,7 +81,7 @@ body{
     align-items: center;
 }
 h2{
-    font-size: 25px;
+    font-size: 20px;
 }
 p{
     font-size:20px ;
